@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Travel</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Favourite</string>
+    <string name="title_notifications">Cities</string>
+    <string name="title_country">Countries </string>
+    <string name="title_activity_maps">Map</string>
+</resources>

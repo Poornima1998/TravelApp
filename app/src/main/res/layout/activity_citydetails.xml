@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CityDetails">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/title1TextView"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/populationTextView"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+
+
+        android:text="population" />
+
+    <TextView
+        android:id="@+id/airportTextView"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:text="airport"
+        android:layout_centerHorizontal="true"
+        android:textColor="#6E00B1" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/iceland"
+        />
+
+
+
+    <Button
+        android:id="@+id/locbutton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true"
+        android:text="Nearest Airport"
+        android:background="@drawable/custom_button"
+        android:onClick="goAirport"/>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
